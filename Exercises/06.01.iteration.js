@@ -35,6 +35,7 @@ function App() {
     {
         data.map( (contact) => (
         <ContactCard
+        key={contact.id}
         name={contact.name}
         job={contact.job}
         email={contact.email}
