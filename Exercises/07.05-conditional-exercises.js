@@ -8,9 +8,6 @@
 // Users who are offline should not be affected.
 
 
-
-
-
 import VisuallyHidden from './VisuallyHidden';
 
 function Friend({ name, isOnline }) {
@@ -144,3 +141,4 @@ function ProfileCard({ profile }) {
   }
   
   export default ProfileCard;
+
