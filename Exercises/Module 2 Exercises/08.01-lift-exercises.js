@@ -52,3 +52,17 @@ function BigCoin({ numOfCoins, setNumOfCoins }) {
 }
 
 export default BigCoin;
+
+
+
+// Exercise #2 - Shopping List
+
+
+
+// The shown list of items should be driven from React state. We can remove the placeholder foods, and start with an empty list
+// Submitting the form should add a new item to the list, and show it in the UI
+// When submitting the form, the text input should be reset, so that it's empty. This way, users can easily add multiple items without having to erase their previous entry.
+// There should be no “key” warnings in the console. Ideally, you shouldn't use the index for the key.
+
+
+
